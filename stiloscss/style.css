@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Serif", serif;
+  size: 20px;
+}
+
+body {
+  width: 90%;
+  height: auto;
+  background-image: linear-gradient(plum, darkblue);
+  color: black;
+  margin: 20px auto;
+  padding: 10px 20px;
+}
+/* menu hamburger */
+.menu{
+  background-color: rgb(55, 0, 255);
+  width: 80%;
+  margin: 40px auto;
+  
+  z-index:9999 ;
+}
+.container{
+  position: relative;
+  width: 60px;
+  margin: 20px ;
+ 
+}
+.btn{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+
+}
+.btn-left{
+  background-color: blanchedalmond;
+  position: absolute;
+  height: 8px;
+  width: 40px;
+  top: 30px;
+  left: 0;
+  -webkit-transition-duration: 0.5s;
+  transition-duration:0.5s ;
+}
+.btn-rigth{
+  background-color:blanchedalmond;
+  position: absolute;
+  height: 8px;
+  width: 40px;
+  top: 30px;
+  left: 30px;
+  content: '';
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.btn-left::before{
+  background-color:blanchedalmond;
+  position: absolute;
+  height: 8px;
+  width: 40px;
+  content: "";
+  top: -20px;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+
+}
+.btn-left::after{
+  background-color: blanchedalmond;
+  position: absolute;
+  height: 8px;
+  width: 40px;
+  content: "";
+  top: 20px;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+
+}
+
+.btn-rigth::before{
+  background-color: rgb(197, 156, 22);
+  position: absolute;
+  height: 8px;
+  width: 40px;
+  content: "";
+  top: -20px;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+
+}
+.btn-rigth::after{
+  background-color: rgb(197, 78, 22);
+  position: absolute;
+  height: 8px;
+  width: 40px;
+  content: "";
+  top: 20px;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+
+}
+.active .btn-left{
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background: transparent;
+}
+.active .btn-left:before{
+  -webkit-transform: rotateZ(45deg) scaleX(1.4) translate(4px, 4px);
+  transform: rolateZ(45deg)scaleX(1.4) translate(4px, 4px);
+  background: transparent;
+}
+.active .btn-left:after{
+  -webkit-transform: rotateZ(-45deg) scaleX(1.4) translate(4px, -4px);
+  transform: rotateZ(-45deg) scaleX(1.4) translate(4px, -4px);
+  background: transparent;
+}
+.active .btn-rigth{
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background: transparent;
+}
+.active .btn-rigth:before{
+  -webkit-transform: rotateZ(-45deg) scaleX(1.4) translate(-4px, 4px);
+  transform: rotateZ(-45deg) scaleX(1.4) translate(-4px, 4px);
+ 
+}
+.active .btn-rigth::after{
+  -webkit-transform: rotateZ(45deg) scaleX(1.4) translate(-4px, -4px);
+  transform: rotateZ(-45deg) scaleX(1.4) translate(-4px, -4px);
+ 
+}
+.cabeca {
+  
+  width: 80%;
+  height: 400px;
+  margin: 20px auto;
+  padding: 40px 10px;
+  border-radius: 20px;
+  
+}
+.navegar {
+  width: 80%;
+  height: 100px;
+  margin: 20px auto;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+nav {
+  margin: 20px 80px;
+  text-align: right;
+}
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  text-decoration: none;
+  text-decoration-style: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  border-left: darkorchid solid 8px;
+  border-bottom: darkorchid solid 2px;
+  padding: 0 20px;
+}
+nav li a :hover {
+  color: rgb(150, 207, 42);
+  background: deeppink;
+}
+input{
+  text-align: center;
+}
+.ancor :active {
+  color: darkturquoise;
+}
+
+.principal {
+  /* background-image: linear-gradient(plum, darkblue); */
+  width: 80%;
+  height: 400px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 40px 20px;
+}
+.formulario {
+  margin-top: 2em;
+  padding-bottom: 2em;
+}
+.imagem a img {
+  width: 100px;
+  border-radius: 100%;
+  border: solid 5px rgb(230, 13, 164);
+}
+.imagem a {
+  color: rgb(230, 13, 164);
+  text-decoration-style: none;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+footer ul li {
+  display: inline-block;
+  text-align: justify;
+  margin-left: 50px;
+}
+
+.rodape {
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 2em;
+}

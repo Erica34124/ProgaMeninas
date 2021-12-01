@@ -5,16 +5,27 @@
     <meta charset="UFT- 8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./stiloscss/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
     <title> ProgaMeninas </title>
 
 </head>
 
 <body>
-    <header class="cabeca">
+
+    <div class="container">
+        <div class="btn">
+            <div class="btn-left"></div>
+            <div class="btn-right"></div>
+            <div class="btn-left"></div>
+            <div class="btn-right"></div>
+        </div>
+    </div>
+
+
+    <header class="cabeca" style="background-image: url('imagens/programeninas.jpg');">
         <h1>ProgaMeninas</h1>
     </header>
 
@@ -29,43 +40,50 @@
             </li>
             <li><a href="#">Contato para ser um doador ou voluntario</a></li>
         </ul>
-       
+
     </nav>
     <main class="principal">
-        <h3>teste principal</h3>
+        <h3>Em que podemos ajudar?</h3>
         <form>
             <input type="search" name="q" placeholder="Search query">
+
             <input type="submit" value="Go!">
         </form>
 
         <section class="formulario">
             <form action="">
-                <legend><h3>Conheça as idealizadoras</h3></legend>
-            
+                <legend>
+                    <h3>Conheça as idealizadoras</h3>
+                </legend>
+
                 <select name="" id="">
                     <option value=""><a href="erica.html">Érica</a></option>
                     <option value="">Lorraine </option>
                     <option value="">Karen</option>
                 </select><br><br>
-                <label class="checkbox"><h4><input type="checkbox" >Gostaria de receber nossas novidades por e-mail?</h4></label>
-                
-                <input type="submit"value="Enviar formulário"class="enviar" >
+                <label class="checkbox">
+                    <h4><input type="checkbox">Gostaria de receber nossas novidades por e-mail?</h4>
+                </label>
+                <input type="email" placeholder="name@gmail.com">
+                <input type="submit" value="Enviar formulário" class="enviar">
             </form>
         </section>
     </main>
-    
+
     <footer>
         <ul class="imagem">
-        <li><a href="erica.html"><img src="imagens/erica.jpg" alt="">Érica</a></li>
-        <li><a href="erica.html"><img src="imagens/erica.jpg" alt="">Érica</a></li>
-        <li><a href="erica.html"><img src="imagens/erica.jpg" alt="">Érica</a></li>
-        <li><a href="erica.html"><img src="imagens/erica.jpg" alt="">Érica</a></li>
-        <li><a href="erica.html"><img src="imagens/erica.jpg" alt="">Érica</a></li>
-        <li><a href="erica.html"><img src="imagens/erica.jpg" alt="">Érica</a></li>
-    </ul>
-        
+            <li><a href="erica.html"><img src="imagens/erica.jpg" alt="">Érica</a></li>
+            <li><a href="erica.html"><img src="imagens/erica.jpg" alt="">Érica</a></li>
+            <li><a href="erica.html"><img src="imagens/erica.jpg" alt="">Érica</a></li>
+            <li><a href="erica.html"><img src="imagens/erica.jpg" alt="">Érica</a></li>
+            <li><a href="erica.html"><img src="imagens/erica.jpg" alt="">Érica</a></li>
+            <li><a href="erica.html"><img src="imagens/erica.jpg" alt="">Érica</a></li>
+        </ul>
+
         <h3 class="rodape">©Copyright</h3>
     </footer>
-
+    <script type="module" src="./javascripts/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
+
 </html>
