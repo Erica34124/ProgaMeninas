@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  body {
+    background: rgb(226, 220, 231);
+    color: aquamarine;
+    font-family: "Raleway", "sans-serif";
+  }
+  a {
+    text-decoration: none;
+    color: rgb(9, 66, 187);
+  }
+  h1 {
+    font-size: 48px;
+    margin-bottom: 24px;
+    padding: 20px;
+  }
+  .div1 {
+    background-color: blue;
+  }
+  .div2 {
+    background-color: palevioletred;
+  }
+  .sobre {
+    color: black;
+    display: flex;
+  }
+  .display {
+    display: flex;
+    justify-content: center;
+    line-height: 1.5em;
+    margin-left: 100px;
+  }
+  .sobredescricao {
+    width: 40%;
+    margin-left: 60px;
+  }
+  .sobredescricao p {
+    margin-bottom: 24px;
+  }
+  .sobrehabilidades {
+    width: 40px;
+    margin-left: 40px;
+  }
+  .titulosobre {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #160852;
+  }
+  .botaosobre {
+    background-color: rgb(240, 224, 236);
+    border: rgb(147, 77, 228) solid 3px;
+    color: darkblue;
+    padding: 15px;
+    border-radius: 30px;
+  }
+  
+  .subtitulo {
+    margin-bottom: 36px;
+  }
+  .botao {
+    background-color: rgb(147, 77, 228);
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+  }
+  .banner {
+    background-image: url(imagens/eu.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: rgb(226, 220, 231);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .lista {
+    line-height: 1.5em;
+  }
+  .h3 {
+    margin-bottom: 16px;
+    font-size: 18px;
+    color: #160852;
+  }
+  .redeslinks {
+    background-color: blue;
+    width: 16%;
+    height: 180px;
+    margin: 16px;
+    color: white;
+  }
+  .rede {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(147, 77, 228);
+    width: 16%;
+    height: 180px;
+    margin: 16px;
+    color: white;
+  }
+  .redes {
+    display: flex;
+    justify-content: center;
+    margin-top: 62px;
+  }
+  .footer {
+    text-align: center;
+    color: darkblue;
+  }
+  
