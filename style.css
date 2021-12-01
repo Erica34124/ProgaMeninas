@@ -14,9 +14,9 @@ body {
   padding: 10px 20px;
 }
 .cabeca {
-  background-color: darkorchid;
+  background-image: url(imagens/programeninas.jpg);
   width: 80%;
-  height: 100px;
+  height: 400px;
   margin: 20px auto;
   padding: 40px 10px;
   border-radius: 20px;
